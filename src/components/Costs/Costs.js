@@ -2,7 +2,7 @@ import CostItem from "./CostItem";
 import Card from '../UI/Card';
 import './Costs.scss'
 
-function Costs(props) {
+const Costs = (props) => {
     return (
         <Card className="costs">
             <CostItem 
