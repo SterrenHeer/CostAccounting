@@ -85,7 +85,7 @@ const CostForm = (props) => {
                         onChange={dateChangeHandler}
                         type="date" 
                         min="2024-06-05" 
-                        max="2024-12-31"
+                        max="2027-12-31"
                     />  
                 </div>
                 <div className="new-cost_actions">
