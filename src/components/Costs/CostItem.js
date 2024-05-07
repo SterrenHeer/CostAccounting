@@ -4,13 +4,15 @@ import './CostItem.scss'
 
 const CostItem = (props) => {
   return (
-    <Card className='cost-item'>
-      <CostDate date={props.date}/>
-      <div className='cost-item_description'>
-        <h2>{props.description}</h2>
-        <div className='cost-item_price'>${props.amount}</div>
-      </div>
-    </Card>
+    <li>
+      <Card className='cost-item'>
+        <CostDate date={props.date}/>
+        <div className='cost-item_description'>
+          <h2>{props.description}</h2>
+          <div className='cost-item_price'>${props.amount}</div>
+        </div>
+      </Card>
+    </li>
   );
 }
 
